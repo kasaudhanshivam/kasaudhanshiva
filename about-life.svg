@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="580" viewBox="0 0 1100 580" role="img">
+<defs>
+      <linearGradient id="about-aurora" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/>
+      </linearGradient>
+      <linearGradient id="about-soft" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/><stop offset="50%" stop-color="#22d3ee" stop-opacity=".75"/><stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+      </linearGradient>
+      <radialGradient id="about-glow"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+      <pattern id="about-dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#94a3b8" opacity=".18"/></pattern>
+      <filter id="about-shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".45"/></filter>
+      
+    </defs>
+<style>
+  .bg{fill:#0d0e16}.card{fill:#11131f;stroke:#263042;stroke-width:1.2}.title{font:700 14px 'DejaVu Sans',Arial,sans-serif;letter-spacing:2px;fill:#94a3b8}.h1{font:800 54px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}.h2{font:800 28px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}.body{font:500 17px 'DejaVu Sans',Arial,sans-serif;fill:#94a3b8}.mono{font:600 13px 'DejaVu Sans Mono','Courier New',monospace;fill:#94a3b8}.chip{font:700 12px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}.small{font:600 11px 'DejaVu Sans',Arial,sans-serif;fill:#94a3b8}.metric{font:800 30px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}.link{font:700 15px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}
+</style>
+<rect class="bg" width="100%" height="100%"/>
+<rect x="10" y="10" width="1080" height="560" rx="24" fill="url(#about-dots)" opacity=".45"/>
+
+<g transform="translate(26 26)">
+<rect width="505" height="520" rx="26" class="card"/><rect width="505" height="520" rx="26" fill="none" stroke="url(#about-aurora)" opacity=".45"/>
+<text x="28" y="38" class="title">WHAT I BUILD</text>
+<text x="28" y="82" class="h2">Software with a purpose.</text>
+<rect x="28" y="106" width="449" height="182" rx="18" fill="#0a0c13" stroke="#20283a"/>
+<rect x="40" y="118" width="425" height="25" rx="12" fill="#141826"/>
+<circle cx="55" cy="130" r="4" fill="#fb7185"/><circle cx="69" cy="130" r="4" fill="#fbbf24"/><circle cx="83" cy="130" r="4" fill="#34d399"/>
+<text x="102" y="134" class="mono">dev://shivam/building</text>
+<text x="49" y="177" class="mono" fill="#22d3ee">$ whoami</text>
+<text x="49" y="204" class="body" fill="#f8fafc">SDE · Full-stack · AI &amp; automation</text>
+<text x="49" y="235" class="mono" fill="#22d3ee">$ cat focus.txt</text>
+<text x="49" y="262" class="body">Clean APIs, reliable systems, useful products.</text>
+<g transform="translate(28 320)">
+ <rect width="449" height="52" rx="16" fill="#121625" stroke="#20283a"/><circle cx="54" cy="346" r="18" fill="#142a31" stroke="#22d3ee"/><text x="47" y="352" class="chip">API</text><text x="84" y="351" class="link">Backend systems &amp; REST APIs</text>
+ <rect y="64" width="449" height="52" rx="16" fill="#121625" stroke="#20283a"/><circle cx="54" cy="90" r="18" fill="#221b33" stroke="#a78bfa"/><text x="46" y="96" class="chip">WEB</text><text x="84" y="95" class="link">Full-stack web applications</text>
+ <rect y="128" width="449" height="52" rx="16" fill="#121625" stroke="#20283a"/><circle cx="54" cy="154" r="18" fill="#331a2d" stroke="#f472b6"/><text x="47" y="160" class="chip">AI</text><text x="84" y="159" class="link">AI agents &amp; workflow automation</text>
+</g></g>
+<g transform="translate(557 26)">
+<rect width="517" height="520" rx="26" class="card"/><rect width="517" height="520" rx="26" fill="none" stroke="url(#about-aurora)" opacity=".55"/>
+<text x="28" y="38" class="title">LIFE OUTSIDE THE IDE</text>
+<text x="28" y="82" class="h2">Two hobbies. One reset button.</text>
+<!-- carousel slides -->
+<g>
+ <g id="about-slide1"><text x="28" y="116" class="small">01 / 02</text><rect x="28" y="136" width="461" height="244" rx="22" fill="#0a0c12"/>
+  <circle cx="259" cy="252" r="92" fill="url(#about-glow)"/><text x="259" y="238" text-anchor="middle" font-size="80">♪</text><text x="259" y="290" text-anchor="middle" class="h2">Singing</text><text x="259" y="322" text-anchor="middle" class="body">A creative break from code.</text>
+  <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.30;.38;.92;1" dur="8s" repeatCount="indefinite"/>
+ </g>
+ <g opacity="0"><text x="28" y="116" class="small">02 / 02</text><rect x="28" y="136" width="461" height="244" rx="22" fill="#0a0c12"/>
+  <circle cx="259" cy="252" r="92" fill="url(#about-glow)"/><text x="259" y="248" text-anchor="middle" font-size="74">♫</text><text x="259" y="290" text-anchor="middle" class="h2">Guitar</text><text x="259" y="322" text-anchor="middle" class="body">Strings, chords, and quiet time.</text>
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.30;.38;.92;1" dur="8s" repeatCount="indefinite"/>
+ </g>
+</g>
+<!-- segmented progress -->
+<rect x="28" y="402" width="225" height="5" rx="3" fill="#a78bfa"/><rect x="263" y="402" width="226" height="5" rx="3" fill="#253047"/>
+<rect x="28" y="402" width="0" height="5" rx="3" fill="#a78bfa"><animate attributeName="width" values="0;225;0" dur="4s" repeatCount="indefinite"/></rect>
+<rect x="263" y="402" width="0" height="5" rx="3" fill="#f472b6" begin="4s"><animate attributeName="width" values="0;226;0" begin="4s" dur="4s" repeatCount="indefinite"/></rect>
+<text x="28" y="452" class="small">DAILY RINGS</text>
+<g transform="translate(28 470)" fill="none" stroke-linecap="round">
+ <circle cx="24" cy="0" r="17" stroke="#253047" stroke-width="7"/><circle cx="24" cy="0" r="17" stroke="#22d3ee" stroke-width="7" stroke-dasharray="60 160" transform="rotate(-90 24 0)"><animate attributeName="stroke-dashoffset" values="0;-220" dur="4s" repeatCount="indefinite"/></circle><text x="52" y="5" class="small">learn</text>
+ <circle cx="136" cy="0" r="17" stroke="#253047" stroke-width="7"/><circle cx="136" cy="0" r="17" stroke="#a78bfa" stroke-width="7" stroke-dasharray="80 140" transform="rotate(-90 136 0)"><animate attributeName="stroke-dashoffset" values="0;-220" dur="4s" repeatCount="indefinite"/></circle><text x="164" y="5" class="small">build</text>
+ <circle cx="248" cy="0" r="17" stroke="#253047" stroke-width="7"/><circle cx="248" cy="0" r="17" stroke="#f472b6" stroke-width="7" stroke-dasharray="110 110" transform="rotate(-90 248 0)"><animate attributeName="stroke-dashoffset" values="0;-220" dur="4s" repeatCount="indefinite"/></circle><text x="276" y="5" class="small">create</text>
+</g>
+</g>
+
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="610" viewBox="0 0 1100 610" role="img">
+<defs>
+      <linearGradient id="stack-aurora" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#22d3ee"/><stop offset="55%" stop-color="#a78bfa"/><stop offset="100%" stop-color="#f472b6"/>
+      </linearGradient>
+      <linearGradient id="stack-soft" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/><stop offset="50%" stop-color="#22d3ee" stop-opacity=".75"/><stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+      </linearGradient>
+      <radialGradient id="stack-glow"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".35"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+      <pattern id="stack-dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#94a3b8" opacity=".18"/></pattern>
+      <filter id="stack-shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".45"/></filter>
+      
+    </defs>
+<style>
+  .bg{fill:#0d0e16}.card{fill:#11131f;stroke:#263042;stroke-width:1.2}.title{font:700 14px 'DejaVu Sans',Arial,sans-serif;letter-spacing:2px;fill:#94a3b8}.h1{font:800 54px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}.h2{font:800 28px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}.body{font:500 17px 'DejaVu Sans',Arial,sans-serif;fill:#94a3b8}.mono{font:600 13px 'DejaVu Sans Mono','Courier New',monospace;fill:#94a3b8}.chip{font:700 12px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}.small{font:600 11px 'DejaVu Sans',Arial,sans-serif;fill:#94a3b8}.metric{font:800 30px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}.link{font:700 15px 'DejaVu Sans',Arial,sans-serif;fill:#f8fafc}
+</style>
+<rect class="bg" width="100%" height="100%"/>
+<rect x="10" y="10" width="1080" height="590" rx="24" fill="url(#stack-dots)" opacity=".45"/>
+
+<text x="40" y="50" class="title">TECH ORBIT</text><text x="40" y="92" class="h2">Tools that move with the work.</text>
+<circle cx="550" cy="190" r="115" fill="url(#stack-glow)"/>
+<g fill="none" stroke="#314057" stroke-width="1.5">
+ <ellipse cx="550" cy="190" rx="185" ry="82" transform="rotate(-12 550 190)"/><ellipse cx="550" cy="190" rx="250" ry="112" transform="rotate(18 550 190)"/><ellipse cx="550" cy="190" rx="140" ry="58" transform="rotate(70 550 190)"/>
+</g>
+<circle cx="550" cy="190" r="58" fill="#0a0d16" stroke="url(#stack-aurora)" stroke-width="2"/><text x="550" y="184" text-anchor="middle" font-size="27" font-weight="800" fill="white">DEV</text><text x="550" y="208" text-anchor="middle" class="small">Shivam</text>
+<!-- orbit nodes -->
+<g transform="rotate(-12 550 190)"><g><circle cx="735" cy="190" r="31" fill="#101725" stroke="#22d3ee" stroke-width="2"/><text x="735" y="195" text-anchor="middle" class="chip">REACT</text><animateTransform attributeName="transform" type="rotate" from="0 550 190" to="360 550 190" dur="10s" repeatCount="indefinite"/></g></g>
+<g transform="rotate(18 550 190)"><g><circle cx="800" cy="190" r="31" fill="#101725" stroke="#34d399" stroke-width="2"/><text x="800" y="195" text-anchor="middle" class="chip">NODE</text><animateTransform attributeName="transform" type="rotate" from="0 550 190" to="-360 550 190" dur="13s" repeatCount="indefinite"/></g></g>
+<g transform="rotate(70 550 190)"><g><circle cx="690" cy="190" r="31" fill="#101725" stroke="#f472b6" stroke-width="2"/><text x="690" y="195" text-anchor="middle" class="chip">JAVA</text><animateTransform attributeName="transform" type="rotate" from="0 550 190" to="360 550 190" dur="7s" repeatCount="indefinite"/></g></g>
+<!-- React moons -->
+<g><circle cx="735" cy="150" r="11" fill="#a78bfa"/><text x="735" y="154" text-anchor="middle" class="small" fill="#0d0e16">JS</text><circle cx="735" cy="230" r="11" fill="#f472b6"/><text x="735" y="234" text-anchor="middle" class="small" fill="#0d0e16">CSS</text><animateTransform attributeName="transform" type="rotate" from="0 735 190" to="360 735 190" dur="4s" repeatCount="indefinite"/></g>
+<g transform="translate(40 350)"><text x="0" y="0" class="title">FRONTEND</text><rect x="0" y="18" width="160" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#22d3ee;#263147" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></rect><text x="16" y="46" class="chip">React.js</text><rect x="170" y="18" width="190" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#a78bfa;#263147" dur="2.4s" begin="0.35s" repeatCount="indefinite"/></rect><text x="186" y="46" class="chip">Tailwind CSS</text></g><g transform="translate(560 350)"><text x="0" y="0" class="title">MOTION &amp; 3D</text><rect x="0" y="18" width="190" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#a78bfa;#263147" dur="2.4s" begin="0.7s" repeatCount="indefinite"/></rect><text x="16" y="46" class="chip">SVG / SMIL</text><rect x="200" y="18" width="160" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#22d3ee;#263147" dur="2.4s" begin="1.0499999999999998s" repeatCount="indefinite"/></rect><text x="216" y="46" class="chip">UI Motion</text></g><g transform="translate(40 478)"><text x="0" y="0" class="title">DATA</text><rect x="0" y="18" width="160" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#22d3ee;#263147" dur="2.4s" begin="1.4s" repeatCount="indefinite"/></rect><text x="16" y="46" class="chip">MongoDB</text><rect x="170" y="18" width="160" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#a78bfa;#263147" dur="2.4s" begin="1.75s" repeatCount="indefinite"/></rect><text x="186" y="46" class="chip">MySQL</text><rect x="340" y="18" width="160" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#22d3ee;#263147" dur="2.4s" begin="2.0999999999999996s" repeatCount="indefinite"/></rect><text x="356" y="46" class="chip">SQL</text></g><g transform="translate(560 478)"><text x="0" y="0" class="title">AI</text><rect x="0" y="18" width="160" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#a78bfa;#263147" dur="2.4s" begin="2.0999999999999996s" repeatCount="indefinite"/></rect><text x="16" y="46" class="chip">AI Agents</text><rect x="170" y="18" width="160" height="44" rx="22" fill="#111726" stroke="#263147"><animate attributeName="stroke" values="#263147;#22d3ee;#263147" dur="2.4s" begin="2.4499999999999997s" repeatCount="indefinite"/></rect><text x="186" y="46" class="chip">n8n</text></g>
+
+</svg>
